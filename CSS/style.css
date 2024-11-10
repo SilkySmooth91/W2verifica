@@ -86,7 +86,7 @@ header {
 .card {
     display: flex;
     overflow: hidden;
-    height: 10rem;
+    height: 8rem;
     margin-bottom: 4rem;
 }
 
