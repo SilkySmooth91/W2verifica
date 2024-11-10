@@ -56,12 +56,12 @@ header {
 
 .supercontainer {
     display: flex;
-    padding-top: 5%;
 }
 
 .section-left {
     width: 60%;
     padding-left: 8%;
+    padding-top: 5rem;
 }
 
 .section-title {
@@ -110,7 +110,7 @@ header {
     font-size: 0.7rem;
 }
 
-.article p {
+p {
     margin: 0;
     font-size: 0.8rem;
     
@@ -185,4 +185,36 @@ header {
     height: 100%;
     object-fit: cover;
     
+}
+
+.section-right {
+    border-left: 1px solid rgb(219, 219, 219);
+    margin-left: 3rem;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    width: 80%;
+    margin: auto;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    gap: 1.5rem;
+}
+
+#social img {
+    width: 50%;
+    height: 50%;
+}
+
+#social a {
+    color: rgb(119, 119, 119);
+    font-size: small;
+}
+
+#social p {
+    font-size: 1rem;
 }
