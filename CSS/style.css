@@ -86,7 +86,7 @@ header {
 .card {
     display: flex;
     overflow: hidden;
-    height: 8.4rem;
+    height: 10rem;
     margin-bottom: 4rem;
 }
 
@@ -160,7 +160,7 @@ p {
 }
 
 .article-footer ion-icon:nth-child(2) {
-    padding-left: 8rem;
+    padding-left: 2.3rem;
 }
 
 .article-footer ul button {
@@ -199,7 +199,7 @@ p {
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 2rem;
-    width: 80%;
+    width: 70%;
     margin: auto;
     border-bottom: 1px solid rgb(219, 219, 219);
     gap: 1.5rem;
