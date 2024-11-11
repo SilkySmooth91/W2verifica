@@ -102,7 +102,6 @@ header {
     justify-content: flex-start;
     align-items: center;
     gap: 0 0.2rem;
-    height: 1rem;
     margin-bottom: 0.3rem;
 }
 
@@ -120,7 +119,7 @@ p {
     font-weight: 800;
 }
 
-.article h3 {
+h3 {
     margin: 0;
     
 }
@@ -214,4 +213,168 @@ p {
 
 #social p {
     font-size: 1rem;
+}
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+    width: 70%;
+    margin: auto;
+    gap: 1rem;
+    overflow: hidden;
+
+}
+
+h4 {
+    margin: 0;
+}
+
+#tags div:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-button {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-radius: 30px;
+    height: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    gap: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.person  {
+    display: flex;
+    height: 2.5rem;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.person div:nth-child(1) {
+    width: 3rem;
+}
+
+.person div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    width: 7rem;
+}
+
+.person img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.profession {
+    font-size: 0.68rem;
+    color: rgb(119, 119, 119);
+    text-wrap: wrap;
+}
+
+.div-button {
+    display: flex;
+    align-items: center;
+    padding-left: 2.5rem;
+}
+
+.follow-button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 1.6rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.saved-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%; 
+    gap: 0.8rem;
+}
+
+.autor {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0 0.2rem;
+  height: 1rem;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+
+.autor img {
+    width: 2rem;
+    height: 1.9rem;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-right: 0.5rem;
+}
+
+.autor span {
+    font-weight: bold;
+}
+
+.infobox {
+    display: flex;
+    align-items: center;
+}
+
+.infobox ul {
+    display: flex;
+    padding: 0;
+    gap: 1.5rem;
+    padding-right: 0.8rem;
+    font-size: smaller;
+    color: rgb(134, 134, 134);
+    margin: 0;
+}
+
+.infobox ion-icon {
+    color: rgb(134, 134, 134);
+}
+
+#recently-saved button {
+    background-color: white;
+    border: none;
+    color: green;
+    width: 15%;
+    padding: 0;
+    text-align: start;
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(134, 134, 134);
 }
